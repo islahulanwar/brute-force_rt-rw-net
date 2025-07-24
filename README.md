@@ -2,7 +2,6 @@
 
 Program Python ini digunakan untuk melakukan brute force login ke halaman login RT/RW Net, dengan antarmuka GUI berbasis Tkinter dan browser otomatis menggunakan Microsoft Edge atau browser yang lain (Selenium WebDriver).
 
-## ⚠️ Disclaimer!
 > ⚠️ **FOR EDUCATIONAL PURPOSES ONLY** ⚠️  
 > ⚠️ This project is intended for educational and ethical testing purposes only.
 >  Do NOT use this on networks or systems you do not own or have explicit permission to test.
@@ -83,9 +82,9 @@ k5ty91
 
 3. **Download Microsoft Edge WebDriver**  
    Sesuaikan dengan versi browsermu:
-   Edge ➡️ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-   Chrome ➡️ https://developer.chrome.com/docs/chromedriver/downloads
-   FireFox ➡️ https://developer.mozilla.org/en-US/docs/Web/WebDriver
+- Edge ➡️ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+- Chrome ➡️ https://developer.chrome.com/docs/chromedriver/downloads
+- FireFox ➡️ https://developer.mozilla.org/en-US/docs/Web/WebDriver
 
 ---
 
