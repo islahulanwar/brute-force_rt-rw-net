@@ -1,16 +1,18 @@
-# 🔐 Brute Force Voucher Hotspot - GUI (Microsoft Edge)
+# 🔐 Brute Force Voucher RT/RW Net - GUI (Microsoft Edge)
 
-Program Python ini digunakan untuk melakukan brute force login ke halaman hotspot seperti `goa.tech`, dengan antarmuka GUI berbasis Tkinter dan browser otomatis menggunakan Microsoft Edge (Selenium WebDriver).
+Program Python ini digunakan untuk melakukan brute force login ke halaman login RT/RW Net, dengan antarmuka GUI berbasis Tkinter dan browser otomatis menggunakan Microsoft Edge atau browser yang lain (Selenium WebDriver).
 
+## ⚠️ Disclaimer!
 > ⚠️ **FOR EDUCATIONAL PURPOSES ONLY** ⚠️  
-> Gunakan hanya untuk pembelajaran, pengujian jaringan pribadi, atau eksperimen etis.  
-> Penulis tidak bertanggung jawab atas segala penyalahgunaan.
+> ⚠️ This project is intended for educational and ethical testing purposes only.
+>  Do NOT use this on networks or systems you do not own or have explicit permission to test.
+>  Use responsibly. The author takes no responsibility for misuse.
 
 ---
 
 ## 🎯 Fitur
 
-- Generate kode voucher otomatis: `k5` + 2 huruf + 2 angka (contoh: `k5sj65`)
+- Generate kode voucher otomatis: `k5` + 2 huruf + 2 angka (contoh: `k5sj65`) atau bisa disesuaikan dengan pola voucher RT/RW Net yang ada
 - Login otomatis ke halaman hotspot menggunakan Microsoft Edge (headless)
 - Deteksi redirect URL untuk memverifikasi login sukses
 - Simpan voucher valid ke file `valid_voucher.txt`
@@ -38,7 +40,7 @@ Program akan:
 
 ---
 
-## 🧩 Struktur Kode Voucher
+## 🧩 Struktur Generate Kode Voucher (Sesuaikan dengan Kebutuhan)
 
 ```python
 def generate_voucher():
@@ -59,8 +61,8 @@ k5ty91
 ## 💻 Kebutuhan Sistem
 
 - Python 3.7 atau lebih baru
-- Microsoft Edge browser
-- Edge WebDriver (msedgedriver.exe)
+- Microsoft Edge atau browser yang digunakan 
+- Edge WebDriver (msedgedriver.exe) atau sesuaikan dengan WebDriver browser yang digunakan
 - Selenium Python library
 
 ---
@@ -70,8 +72,7 @@ k5ty91
 1. **Clone repositori**:
 
    ```bash
-   git clone https://github.com/username/nama-repo.git
-   cd nama-repo
+   git clone https://github.com/islahulanwar/brute-force_rt-rw-net.git
    ```
 
 2. **Install dependensi Python**:
@@ -81,15 +82,18 @@ k5ty91
    ```
 
 3. **Download Microsoft Edge WebDriver**  
-   Sesuaikan dengan versi Edge kamu:
-   https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+   Sesuaikan dengan versi browsermu:
+   Edge ➡️ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+   Chrome ➡️ https://developer.chrome.com/docs/chromedriver/downloads
+   FireFox ➡️ https://developer.mozilla.org/en-US/docs/Web/WebDriver
 
 ---
 
 ## 🚀 Menjalankan Program
 
 ```bash
-python brute_force_voucher.py
+WebDriver.exe
+brute_force_voucher.py
 ```
 
 GUI akan muncul, kemudian kamu bisa:
@@ -120,6 +124,7 @@ k5sj65 | 2025-07-24 11:45:32
 
 ```
 .
+├── WebDriver.exe
 ├── brute_force_voucher.py
 ├── valid_voucher.txt
 ├── requirements.txt
@@ -143,7 +148,3 @@ selenium
 > Penggunaan di luar tanggung jawab penulis dan dapat melanggar hukum yang berlaku.
 
 ---
-
-## 📜 Lisensi
-
-MIT License
