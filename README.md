@@ -60,7 +60,7 @@ k5ty91
 ## 💻 Kebutuhan Sistem
 
 - Python 3.7 atau lebih baru
-- Microsoft Edge atau browser yang digunakan 
+- Microsoft Edge atau browser lain yang digunakan 
 - Edge WebDriver (msedgedriver.exe) atau sesuaikan dengan WebDriver browser yang digunakan
 - Selenium Python library
 
